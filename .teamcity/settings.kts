@@ -33,10 +33,6 @@ project {
 object Build : BuildType({
     name = "Build"
 
-    vcs {
-        root(DslContext.settingsRoot)
-    }
-
     triggers {
         vcs {
         }
